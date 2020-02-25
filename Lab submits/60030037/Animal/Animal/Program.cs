@@ -34,8 +34,9 @@ namespace Animal
     {
         static void Main(string[] args)
         {
-            Animal animal = new Animal();
-            animal.Eat();
+            Cat cat = new Cat();
+            cat.Eat();
+            cat.Meow();
             Console.ReadKey();
         }
     }
