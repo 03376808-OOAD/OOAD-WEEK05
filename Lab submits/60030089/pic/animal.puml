@@ -1,0 +1,22 @@
+@startuml
+
+left to right direction
+class Animal
+{
+    void Eat()
+}
+class Dog
+{
+    void Bark()
+}
+class Cat
+{
+    void Meow()
+}
+class Puppy
+{
+    void Weep()
+    void Bark()
+}
+
+@enduml
