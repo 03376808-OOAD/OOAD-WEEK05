@@ -11,13 +11,13 @@ namespace Animal
         static void Main(string[] args)
         {
            // Dog dog = new Dog();
-           Puppy puppy = new Puppy();
+           //Puppy puppy = new Puppy();
            // Cat cat = new Cat();
-            //Animal animal = new Animal();
+            Animal animal = new Animal();
             //dog.Bark();
-           puppy.Bark();
-           puppy.Eat();
-            puppy.Weep();
+          // puppy.Bark();
+          // puppy.Eat();
+           // puppy.Weep();
            //animal.Eat();
            //cat.Eat();
            // cat.Meow();
