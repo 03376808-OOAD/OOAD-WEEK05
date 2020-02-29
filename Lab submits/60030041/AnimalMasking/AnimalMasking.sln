@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animal", "Animal\Animal.csproj", "{7C9681AE-353D-475A-B993-3D41FE8A4858}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalMasking", "AnimalMasking\AnimalMasking.csproj", "{AD739238-D34F-4204-B31D-D80E7F68E4A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7C9681AE-353D-475A-B993-3D41FE8A4858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C9681AE-353D-475A-B993-3D41FE8A4858}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C9681AE-353D-475A-B993-3D41FE8A4858}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C9681AE-353D-475A-B993-3D41FE8A4858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD739238-D34F-4204-B31D-D80E7F68E4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD739238-D34F-4204-B31D-D80E7F68E4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD739238-D34F-4204-B31D-D80E7F68E4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD739238-D34F-4204-B31D-D80E7F68E4A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {32375497-0E2D-4502-9837-F819380DD71A}
+		SolutionGuid = {C4B9E999-62AD-41A0-BDB0-2F66C8F67466}
 	EndGlobalSection
 EndGlobal

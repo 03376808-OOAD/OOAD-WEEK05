@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7C9681AE-353D-475A-B993-3D41FE8A4858}</ProjectGuid>
+    <ProjectGuid>{AD739238-D34F-4204-B31D-D80E7F68E4A7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Animal</RootNamespace>
-    <AssemblyName>Animal</AssemblyName>
+    <RootNamespace>AnimalMasking</RootNamespace>
+    <AssemblyName>AnimalMasking</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
