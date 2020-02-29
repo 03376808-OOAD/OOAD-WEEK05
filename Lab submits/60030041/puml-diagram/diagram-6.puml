@@ -1,0 +1,7 @@
+@startuml
+class Cat 
+{
+  void Eat()
+  void Meow()
+}
+@enduml
