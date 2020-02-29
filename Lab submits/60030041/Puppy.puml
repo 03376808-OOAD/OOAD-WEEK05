@@ -1,0 +1,8 @@
+@startuml
+Class Pupply
+{
+    void Eat()
+    void Bark()
+    void Wepp()
+}
+@enduml
