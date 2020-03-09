@@ -10,6 +10,9 @@ namespace Lab5_Activity3
     {
         static void Main(string[] args)
         {
+            ChildClass child = new ChildClass();
+
+            child.print();
         }
     }
     public class ParentClass
@@ -25,4 +28,13 @@ namespace Lab5_Activity3
         }
     }
 
+    public class ChildClass : ParentClass
+    {
+        public ChildClass()
+        {
+            Console.WriteLine("Child Constructor.");
+        }
+
+ 
+    }
 }
