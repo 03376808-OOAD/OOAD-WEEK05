@@ -55,7 +55,7 @@ namespace Lab5_Activity4_2
 
     public class Rectangle : Square
     {
-        public override void Draw()
+        public new void Draw()
         {
             Console.WriteLine("I'm a rectangle");
         }
