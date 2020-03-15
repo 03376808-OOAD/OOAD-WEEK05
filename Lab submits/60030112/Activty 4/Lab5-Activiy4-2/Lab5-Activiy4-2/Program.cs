@@ -55,7 +55,7 @@ namespace Lab5_Activiy4_2
             {
                 drawObj.Draw();
             }
-            return 0;
+            return 0; // avirut
         }
     }
 }
