@@ -1,0 +1,34 @@
+@startuml
+
+class DrawingObject 
+{
+  virtual void Draw()
+}
+
+class Circle 
+{
+  override void Draw()
+}
+
+class Rectangle 
+{
+  override void Draw()
+}
+
+
+class Square 
+{
+  override void Draw()
+}
+
+class Line 
+{
+  override void Draw()
+}
+
+DrawingObject <|-- Line
+DrawingObject <|-- Circle
+DrawingObject <|-- Square
+Square <|-- Rectangle
+
+@enduml

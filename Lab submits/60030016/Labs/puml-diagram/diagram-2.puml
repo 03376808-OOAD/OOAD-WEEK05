@@ -1,0 +1,8 @@
+@startuml
+class Animal 
+{
+  void Eat()
+}
+
+Animal <|.. animal 
+@enduml
