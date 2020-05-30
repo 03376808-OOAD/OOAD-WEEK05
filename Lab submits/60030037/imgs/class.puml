@@ -1,0 +1,20 @@
+@startuml
+class Animal{
+    void Eat()
+}
+class Cat{
+    void Eat()
+    void Meow()
+}
+
+class Dog{
+    void Eat()
+    void Bark()
+}
+
+class Puppy{
+    void Eat()
+    void Bark()
+    void Weep()
+}
+@enduml
