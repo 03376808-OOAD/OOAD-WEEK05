@@ -1,0 +1,7 @@
+@startuml
+class Cat
+{
+    void Eath()
+    void Meow()
+}
+@endyml

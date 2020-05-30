@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+    font: 20px sans-serif;
+}
+
+header {
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu {
+    padding: 0px 10px;
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0fr 1fr 1fr;
+    grid-gap: 50px;
+    padding: 20px;
+}
+
+@media (min-width: 600px) {
+    /*Responsive design*/
+    article {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 0fr 1fr 1fr;
+        grid-gap: 50px;
+        padding: 20px;
+        grid-template-areas: "five five" "one two" "three four";
+    }
+}
+
+@media (max-width:992px) {
+    /*Responsive design*/
+    article {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 50px;
+        padding: 20px;
+        grid-template-areas: "five" "one" "two" "three" "four";
+    }
+}
+
+#jupiter {
+    grid-area: one;
+}
+
+#Saturn {
+    grid-area: two;
+}
+
+#Uranus {
+    grid-area: three;
+}
+
+#Neptune {
+    grid-area: four;
+}
+
+header {
+    grid-area: five;
+}
+
+aside {
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+}
